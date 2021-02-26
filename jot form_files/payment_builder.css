@@ -1,0 +1,72 @@
+/* Product List Element //////////////// */
+.rightPanel #app_wizards .add-integration a.btn:before {
+    background-image: url(https://cdn.jotfor.ms/assets/img/payments/add_integration_grey.svg) !important;
+    background-repeat: no-repeat !important;
+    background-size: 24px !important;
+    background-position: center;
+    padding-left: 34px;
+    content: "";
+    display: inline-block;
+    width: 20px;
+    padding: 8px 0;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.rightPanel #app_wizards .add-integration p {
+    line-height: 16px !important;
+    font-size: 12px !important;
+    margin-bottom: 0 !important;
+}
+.line.selected-gateway-info {
+    background-color: #333b44;
+    margin: 1px -20px -20px !important;
+    padding: 20px;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+    border-top: 1px solid #333a43;
+}
+.line.selected-gateway-info span {
+    margin-right: 12px;
+    float: left;
+    height: 50px;
+    width: 142px;
+    padding: 13px 6px;
+}
+.line.selected-gateway-info img {
+    margin-right:12px;
+    float: left;
+    border-radius: 3px;
+}
+.line.selected-gateway-info button {
+    width: 42px;
+    height: 42px;
+    margin-left: 4px;
+    float: left;
+    margin-top: 4px;
+    background-color: #3e464e;
+    border: 1px solid #31333c;
+    color: #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.line.selected-gateway-info button:hover {
+    background-color: #1ba0f0;
+}
+.line.selected-gateway-info button i{
+    font-size: 22px;
+}
+.line.selected-gateway-info button.gateway-switch {
+    background-image: url(//cdn.jotfor.ms/assets/img/v4/payment_icons/PG-switch.svg);
+    background-size: 30px;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+.line.selected-gateway-info button.gateway-remove {
+    background-image: url('https://cdn.jotfor.ms/assets/img/payments/trash_gateway.svg');
+    background-size: 22px;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+/* E.O. Product List Element //////////////// */
